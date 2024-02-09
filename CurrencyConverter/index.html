@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corruecy Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header>Corrency Converter</header>
+        <form action="#">
+            <div class="amount">
+                <p>Enter Amount</p>
+                <input type="text" value="1">
+            </div>
+            <div class="drop-list">
+               <div class="from">
+                <p>From</p>
+                <div class="select-box">
+                    <img src="https://flagsapi.com/US/flat/64.png" alt="flag">
+                    <select>
+                        <option value="USD">USD</option>
+                        <option value="BDT">BDT</option>
+                        <option value="INR">INR</option>
+                        <option value="NPR">NPR</option>
+                        <option value="PKR">PKR</option>
+                    </select>
+                </div>
+               </div> 
+
+               <div class="icon"><i class="fas fa-exchange-alt"></i></div>
+
+               <div class="To">
+                <p>To</p>
+                <div class="select-box">
+                    <img src="https://flagsapi.com/BD/flat/64.png" alt="flag">
+                    <select>
+                        <option value="USD">USD</option>
+                        <option value="BDT">BDT</option>
+                        <option value="INR">INR</option>
+                        <option value="NPR">NPR</option>
+                        <option value="PKR">PKR</option>
+                    </select>
+                </div>
+               </div> 
+            </div>
+            <div class="exchange-rate">1 USD = 110.25 BDT</div>
+            <button>Get Exchange Rate</button>
+        </form>
+    </div>
+
+    <script src="countryList.js"></script>
+    <script src="script.js"></script>
+
+
+</body>
+</html>
